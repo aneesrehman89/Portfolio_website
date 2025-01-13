@@ -36,7 +36,7 @@ export default function Intro() {
                 <span className='text-warning'>{currentText}</span>
               </h2>
               <p className='lead textColor'>
-              Hello! I'm Anees Ur Rehman a budding Full Stack Developer, having at least one year of experience in front-end and back-end technologies
+              Hello! I’m Anees Ur Rehman, a passionate Full Stack Developer with over a year of experience in both front-end and back-end technologies. In addition to my technical skills, I’ve successfully completed multiple freelance projects.
               </p>
               <div className='ref'>
                 <button

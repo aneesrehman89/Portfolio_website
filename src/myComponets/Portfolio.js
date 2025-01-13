@@ -341,7 +341,7 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='btn-group'>
                     <Link
-                      to='https://github.com/aneesrehman89/mini-blog-website'
+                      to='https://mini-blog-website-snowy.vercel.app/'
                       target='_blank'
                     >
                       <button
