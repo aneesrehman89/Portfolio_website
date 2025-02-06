@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import bnb from "../Gifs/bnb.mp4";
 import siredBits from "../images/siredBits.png";
+import gemini from "../images/Capture.png";
 import pexles from "../Gifs/pexles.mp4";
 import joya from "../Gifs/joya.mp4";
 import gym from "../Gifs/gym.mp4";
@@ -21,32 +22,24 @@ export default function Portfolio() {
         <div className="row my-3">
           <div className="col-md-5 ">
             <div className="card shadow-sm" style={{ height: "430px" }}>
-              <video
-                className="bd-placeholder-img card-img-top"
+            <img
+                src={gemini}
+                alt=""
+                srcSet=""
                 width="100%"
-                height="230"
-                muted
-                autoPlay
-                loop
-              >
-                <source src={bnb} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-
+                height="230px"
+              />
               <div className="card-body bg-dark text-light">
                 <p className="card-text">
                   <span className="text-warning font-weight-bold">
-                    HRS Website ON MERN
+                  Gemini_AI Chat Bot – Intelligent Conversational Assistant
                   </span>{" "}
-                  Create a Hostel Reservation System website, adding the
-                  functionality to Book hostel, view hostel details, 3D room
-                  view, email-notification for booking confirmation and much
-                  more.
+                    is a smart, AI-powered chatbot built using the MERN Stack and integrated with the Gemini AI model. It offers real-time answers, along with an interactive voice feature that converts text into speech, Making conversations more interactive and engaging.
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
                     <Link
-                      to="https://github.com/aneesrehman89/Airbnb-user"
+                      to="https://gemini-app-frontend.vercel.app/"
                       target="_blank"
                     >
                       <button
@@ -65,6 +58,54 @@ export default function Portfolio() {
           <div className="col-md-2">&nbsp;&nbsp;&nbsp;&nbsp;</div>
           {/* right */}
           <div className="col-md-5 ">
+            <div className="card shadow-sm" style={{ height: "430px" }}>
+              <video
+                className="bd-placeholder-img card-img-top"
+                width="100%"
+                height="240"
+                muted
+                autoPlay
+                loop
+              >
+                <source src={pexles} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="card-body bg-dark text-light">
+                <p className="card-text">
+                  <span className="text-warning font-weight-bold">
+                    Pexels Clone using React.js
+                  </span>{" "}
+                  is a api fetcing functionality website with interactive UI
+                  based on React.js, Node.js, HTML, CSS, JavaScript and Bootstrap. It
+                  allow user to search any kind of thing based on their
+                  prefernces.
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <Link
+                      to="https://pexels-clone-lake.vercel.app/"
+                      target="_blank"
+                    >
+                      <button
+                        type="button"
+                        className="btn btn-md btn-outline-warning"
+                      >
+                        View
+                      </button>
+                    </Link>
+                  </div>
+                  <small className="text-light">2 Month ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+      </div>
+      {/* --------------------------------------------Second One----------------------------- */}
+      <div className="container my-3">
+        <div className="row">
+        <div className="col-md-5 ">
             <div className="card shadow-sm" style={{ height: "430px" }}>
               <img
                 src={siredBits}
@@ -94,136 +135,6 @@ export default function Portfolio() {
                     </Link>
                   </div>
                   <small className="text-light">1 Month ago</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* --------------------------------------------Second One----------------------------- */}
-      <div className="container my-3">
-        <div className="row my-3">
-          <div className="col-md-5">
-            <div className="card shadow-sm" style={{ height: "430px" }}>
-              <img
-                className="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                muted
-                src="https://res.cloudinary.com/dvccsosdc/image/upload/v1706048093/ToDo_List_q9p4dv.gif"
-                alt=""
-              />
-              <div className="card-body bg-dark text-light">
-                <p className="card-text">
-                  <span className="text-warning font-weight-bold">
-                    To-Do List App Using JavaScript
-                  </span>{" "}
-                  include funtionality Edit,Delete,Done Task and Shows the Task
-                  adding time with date.In addition the tasks and changes will
-                  not remove after reload due to use of Local Storage.{" "}
-                </p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="btn-group">
-                    <Link
-                      to="https://todo-app-zeta-sandy.vercel.app/"
-                      target="_blank"
-                    >
-                      <button
-                        type="button"
-                        className="btn btn-md btn-outline-warning"
-                      >
-                        View
-                      </button>
-                    </Link>
-                  </div>
-                  <small className="text-light">1 Month ago</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-2">&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          {/* right */}
-          <div className="col-md-5">
-            <div className="card shadow-sm" style={{ height: "430px" }}>
-              <img
-                className="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                muted
-                src="https://res.cloudinary.com/dvccsosdc/image/upload/v1706048071/conveter_skzidd.gif"
-                alt=""
-              />
-              <div className="card-body bg-dark text-light ">
-                <p className="card-text">
-                  <span className="text-warning font-weight-bold">
-                    Real time Currency Converter
-                  </span>{" "}
-                  of almost ten plus country with the help of JavaScript. In
-                  addition show the conversion rate with real time output,
-                  adding animations and effects.
-                </p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="btn-group">
-                    <Link
-                      to="https://currency-calculator-delta.vercel.app/"
-                      target="_blank"
-                    >
-                      <button
-                        type="button"
-                        className="btn btn-md btn-outline-warning"
-                      >
-                        View
-                      </button>
-                    </Link>
-                  </div>
-                  <small className="text-light">1 Month ago</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* --------------------------------------------Third One----------------------------- */}
-      <div className="container my-3">
-        <div className="row">
-          <div className="col-md-5 ">
-            <div className="card shadow-sm" style={{ height: "430px" }}>
-              <video
-                className="bd-placeholder-img card-img-top"
-                width="100%"
-                height="240"
-                muted
-                autoPlay
-                loop
-              >
-                <source src={pexles} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <div className="card-body bg-dark text-light">
-                <p className="card-text">
-                  <span className="text-warning font-weight-bold">
-                    Pexels Clone using React.js
-                  </span>{" "}
-                  is a api fetcing functionality website with interactive UI
-                  based on HTML, CSS, JavaScript Bootstrap and React.js. It
-                  allow user to search any kind of thing based on their
-                  prefernces.
-                </p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="btn-group">
-                    <Link
-                      to="https://pexels-clone-lake.vercel.app/"
-                      target="_blank"
-                    >
-                      <button
-                        type="button"
-                        className="btn btn-md btn-outline-warning"
-                      >
-                        View
-                      </button>
-                    </Link>
-                  </div>
-                  <small className="text-light">2 Month ago</small>
                 </div>
               </div>
             </div>
@@ -273,7 +184,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {/* --------------------------------------------Fourth One----------------------------- */}
+      {/* -------------------------------------------- Third One----------------------------- */}
       <div className="container my-3">
         <div className="row">
           <div className="col-md-5">
@@ -362,7 +273,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {/* --------------------------------------------Fifth One----------------------------- */}
+      {/* -------------------------------------------- Fourth One----------------------------- */}
       <div className="container my-3">
         <div className="row">
           <div className="col-md-5">
@@ -452,7 +363,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {/* --------------------------------------------Sixth One----------------------------- */}
+      {/* -------------------------------------------- Fifth One----------------------------- */}
       <div className="container my-3">
         <div className="row">
           <div className="col-md-5">
