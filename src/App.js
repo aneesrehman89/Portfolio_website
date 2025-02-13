@@ -1,12 +1,12 @@
 import React from 'react';
-import Intro from './myComponets/Intro';
-import About from './myComponets/About';
-import MyResume from './myComponets/MyResume';
-import Portfolio from './myComponets/Portfolio';
-import Contact from './myComponets/Contact';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './myComponets/Navbar';  // Navbar is outside the animated routes
+import About from './myComponets/About';
+import Contact from './myComponets/Contact';
+import Home from './myComponets/Home';
+import Education from './myComponets/Education';
+import Projects from './myComponets/Projects';
 
 function App() {
   return (
