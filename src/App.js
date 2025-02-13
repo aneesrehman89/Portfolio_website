@@ -1,8 +1,8 @@
 import React from 'react';
-import Home from './myComponets/Home';
+import Intro from './myComponets/Intro';
 import About from './myComponets/About';
-import Education from './myComponets/Education';
-import Projects from './myComponets/Projects';
+import MyResume from './myComponets/MyResume';
+import Portfolio from './myComponets/Portfolio';
 import Contact from './myComponets/Contact';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
