@@ -36,7 +36,7 @@ export default function Intro() {
                 <span className='text-warning'>{currentText}</span>
               </h2>
               <p className='lead textColor'>
-               with over a two months of experience in both front-end and back-end technologies. In addition to my technical skills, I’ve successfully completed multiple freelance projects.
+              I have six months of experience at Kodex Tech Software House as a Front-End Developer and at Digital Insides Software House as a MERN Stack Developer Intern. In addition to my technical skills, I’ve successfully completed multiple freelance projects.
               </p>
               <div className='ref'>
                 <button
