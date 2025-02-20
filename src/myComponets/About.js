@@ -63,7 +63,7 @@ export default function About() {
                       ></i>
                     </h2>
                     <p className='text-light font-weight-bold'>Experience</p>
-                    <p className='text-light'>Two months</p>
+                    <p className='text-light'>Six months</p>
                   </div>
                 </div>
                 <div className='col-md-6 text-light   mb-2'>
