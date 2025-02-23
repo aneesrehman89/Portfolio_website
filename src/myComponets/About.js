@@ -48,11 +48,24 @@ export default function About() {
         {/* <!-- -------What I Do--- --> */}
         <div className='container mx-auto '>
           <div className='h3 textColor'>
-            What<span className='text-warning'> I Do</span>
+            What<span className='text-warning'> I have done Yet</span>
           </div>
           <div className='row featurette my-3'>
             <div className='col-md-6'>
               <div className='row'>
+              <div className='col-md-6 text-light   mb-2'>
+                  <div className='box AboutBox text-center '>
+                    <br />
+                    <h2>
+                      <i
+                        className='fa-solid fa-briefcase'
+                        style={{ color: '#FFC107' }}
+                      ></i>
+                    </h2>
+                    <p className='text-light font-weight-bold'>Completed</p>
+                    <p className='text-light'>7+ Projects</p>
+                  </div>
+                </div>
                 <div className='col-md-6 text-light   mb-2'>
                   <div className='box AboutBox text-center'>
                     <br />
@@ -66,19 +79,7 @@ export default function About() {
                     <p className='text-light'>Six months</p>
                   </div>
                 </div>
-                <div className='col-md-6 text-light   mb-2'>
-                  <div className='box AboutBox text-center '>
-                    <br />
-                    <h2>
-                      <i
-                        className='fa-solid fa-briefcase'
-                        style={{ color: '#FFC107' }}
-                      ></i>
-                    </h2>
-                    <p className='text-light font-weight-bold'>Completed</p>
-                    <p className='text-light'>7+ Projects</p>
-                  </div>
-                </div>
+             
               </div>
               <div className='row'>
                 <div className='col-md-6 text-light  mb-2'>

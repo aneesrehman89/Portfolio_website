@@ -70,7 +70,7 @@ export default function Contact() {
 
     // Validate the form
     if (!validateForm()) {
-      toast.error('Please fill in all required fields!');
+      toast.error('Please fill all required fields!');
       return;
     }
 

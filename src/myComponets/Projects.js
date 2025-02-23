@@ -12,14 +12,56 @@ import MKS from "../Gifs/MKS.mp4";
 import BLVQ from "../Gifs/BLVQ.mp4";
 import blog from "../Gifs/blog.mp4";
 import kodex from "../Gifs/kodex.mp4";
+import doctor from "../Gifs/doctor-appointment.mp4";
 
 export default function Portfolio() {
   return (
     <div>
       <Navbar />
       {/* --------------------------------------------First One----------------------------- */}
-      <div className="container">
+      <div className="container">  
         <div className="row my-3">
+        <div className="col-md-5 ">
+            <div className="card shadow-sm" style={{ height: "430px" }}>
+              <video
+                className="bd-placeholder-img card-img-top"
+                width="100%"
+                height="240"
+                muted
+                autoPlay
+                loop
+              >
+                <source src={doctor} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="card-body bg-dark text-light">
+                <p className="card-text">
+                  <span className="text-warning font-weight-bold">
+                   Doctor Appointment Website
+                  </span>{" "}
+                  is a full stack responisve MERN application that allows users to book, manage, and track doctor appointments. Users can filter doctors by specialization, schedule appointments, update profiles e.t.c 
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <Link
+                      to="https://doctor-appointment-frontend-virid.vercel.app/"
+                      target="_blank"
+                    >
+                      <button
+                        type="button"
+                        className="btn btn-md btn-outline-warning"
+                      >
+                        View
+                      </button>
+                    </Link>
+                  </div>
+                  <small className="text-light">5 days ago</small>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div className="col-md-2">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          {/* right */}
           <div className="col-md-5 ">
             <div className="card shadow-sm" style={{ height: "430px" }}>
             <img
@@ -45,6 +87,45 @@ export default function Portfolio() {
                       <button
                         type="button"
                         className="btn btn-md btn-outline-warning me-2"
+                      >
+                        View
+                      </button>
+                    </Link>
+                  </div>
+                  <small className="text-light">1 Month ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* --------------------------------------------Second One----------------------------- */}
+      <div className="container">  
+        <div className="row my-3">
+        <div className="col-md-5 ">
+            <div className="card shadow-sm" style={{ height: "430px" }}>
+              <img
+                src={siredBits}
+                alt=""
+                srcSet=""
+                width="100%"
+                height="230px"
+              />
+              <div className="card-body bg-dark text-light">
+                <p className="card-text">
+                  <span className="text-warning font-weight-bold">
+                    SiredBits is a business startup website built with React.js
+                  </span>{" "}
+                  showcasing services with a modern design. Integrated with
+                  Firebase to capture user messages from the contact form for
+                  seamless communication.
+                </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group">
+                    <Link to="https://www.siredbits.com/" target="_blank">
+                      <button
+                        type="button"
+                        className="btn btn-md btn-outline-warning"
                       >
                         View
                       </button>
@@ -98,14 +179,13 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-       
+          </div>    
         </div>
       </div>
-      {/* --------------------------------------------Second One----------------------------- */}
+      {/* --------------------------------------------Third One----------------------------- */}
       <div className="container my-3">
         <div className="row">
-        <div className="col-md-5 ">
+        {/* <div className="col-md-5 ">
             <div className="card shadow-sm" style={{ height: "430px" }}>
               <img
                 src={siredBits}
@@ -138,10 +218,10 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-2">&nbsp;&nbsp;&nbsp;&nbsp;</div>
           {/* right */}
-          <div className="col-md-5">
+          <div className="col-md-6">
             <div className="card shadow-sm" style={{ height: "430px" }}>
               <video
                 className="bd-placeholder-img card-img-top"
@@ -184,7 +264,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {/* -------------------------------------------- Third One----------------------------- */}
+      {/* -------------------------------------------- Fourth One----------------------------- */}
       <div className="container my-3">
         <div className="row">
           <div className="col-md-5">
@@ -273,7 +353,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {/* -------------------------------------------- Fourth One----------------------------- */}
+      {/* -------------------------------------------- Fifth One----------------------------- */}
       <div className="container my-3">
         <div className="row">
           <div className="col-md-5">
@@ -363,7 +443,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      {/* -------------------------------------------- Fifth One----------------------------- */}
+      {/* -------------------------------------------- Sixth One----------------------------- */}
       {/* <div className="container my-3">
         <div className="row">
           <div className="col-md-5">
@@ -453,6 +533,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div> */}
+
     </div>
   );
 }

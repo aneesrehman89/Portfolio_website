@@ -150,7 +150,7 @@ export default function MyResume() {
             <div className='row'>
               <div className='col-4 mb-3 '>
                 <b className='heading font-weight-bold'>2008-2017</b> <br />
-                <span className='textColor'>Kahnur Eduction School</span>
+                <span className='textColor'>Kahnur Eduction School (87%)</span>
                 <img
                   className='bd-placeholder-img bd-placeholder-img-sm featurette-image img-fluid mx-auto rounded mt-2'
                   width='200'
