@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from './myComponets/Navbar';  // Navbar is outside the animated routes
+import Navbar from './myComponets/Navbar';  
 import About from './myComponets/About';
 import Contact from './myComponets/Contact';
 import Home from './myComponets/Home';

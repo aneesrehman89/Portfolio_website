@@ -92,7 +92,7 @@ export default function Portfolio() {
                       </button>
                     </Link>
                   </div>
-                  <small className="text-light">1 Month ago</small>
+                  <small className="text-light">15 days ago</small>
                 </div>
               </div>
             </div>
