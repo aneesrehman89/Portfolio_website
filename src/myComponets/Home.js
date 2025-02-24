@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../App.css'; // Include your CSS file
 import anees1 from '../Pics/anees1.jpg';
 
-export default function Intro() {
+export default function Home() {
   const texts = useMemo(
     () => ['A Software Engineer', 'A Full Stack Developer'],
     []

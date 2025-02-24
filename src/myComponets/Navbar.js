@@ -47,8 +47,11 @@ export default function Navbar() {
             <ul className='navbar-nav mx-auto mb-2 mb-lg-0 me-auto text-center text-lg-start'>
               <li className='nav-item'>
                 <NavLink
-                  className='nav-link fs-5 textColor'
-                  aria-current='page'
+                  className={({ isActive }) =>
+                    isActive
+                      ? 'nav-link fs-5 textColor active'
+                      : 'nav-link fs-5 textColor'
+                  }
                   to='/'
                   onClick={handleNavLinkClick}
                 >
