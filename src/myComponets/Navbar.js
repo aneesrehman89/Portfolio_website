@@ -55,7 +55,7 @@ export default function Navbar() {
                   Home
                 </NavLink>
               </li>
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <NavLink
                   className='nav-link fs-5 textColor'
                   aria-current='page'
@@ -64,7 +64,7 @@ export default function Navbar() {
                 >
                   About
                 </NavLink>
-              </li>
+              </li> */}
               <li className='nav-item'>
                 <NavLink
                   className='nav-link fs-5 textColor'

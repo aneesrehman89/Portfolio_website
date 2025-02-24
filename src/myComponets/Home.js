@@ -35,8 +35,8 @@ export default function Intro() {
                 </p>
                 <span className='text-warning'>{currentText}</span>
               </h2>
-              <p className='lead textColor'>
-              I have six months of experience at Kodex Tech Software House as a Front-End Developer and at Digital Insides Software House as a MERN Stack Developer Intern. In addition to my technical skills, I’ve successfully completed multiple freelance projects.
+              <p className='lead textColor'style={{maxWidth:"580px"}}>
+              I have gain good skills in creating responsive web sites with a perfect blend of stunning graphics, smooth animations, and user-friendly interfaces. Along with this, I have six months of experience at Kodex Tech Software House as a Front-End Developer and at Digital Insides Software House as a MERN Stack Developer Intern. In addition to my technical skills, I’ve successfully completed multiple freelance projects.
               </p>
               <div className='ref'>
                 <button

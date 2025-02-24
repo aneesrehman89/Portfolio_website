@@ -16,8 +16,9 @@ export default function MyResume() {
     setHoveredSkill(null);
   };
 
-  const reactPercentage = 65;
-  const nodePercentage = 60;
+  const reactPercentage = 80;
+  const nextPercentage = 85;
+  const nodePercentage = 75;
   const expressPercentage = 70;
   const mongodbPercentage = 75;
   const bootstrapPercentage = 80;
@@ -28,10 +29,16 @@ export default function MyResume() {
 
   const skills = [
     {
-      name: 'React',
+      name: 'ReactJS',
       icon: 'fa-brands fa-react',
       color: '#00D9FF',
       percentage: reactPercentage,
+    },
+    {
+      name: 'NextJS',
+      icon: 'fa-solid fa-n',
+      color: '#00D9FF',
+      percentage: nextPercentage,
     },
     {
       name: 'NodeJs',
@@ -40,7 +47,7 @@ export default function MyResume() {
       percentage: nodePercentage,
     },
     {
-      name: 'Express',
+      name: 'ExpressJS',
       icon: 'fa-brands fa-js',
       color: '#F0DB4F',
       percentage: expressPercentage,
